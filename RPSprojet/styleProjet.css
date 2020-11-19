@@ -1,0 +1,30 @@
+*{
+  background-color: black;
+}
+.title, .wp, .thanks, .titre{
+  color: white;
+}
+
+.title{
+text-align: center;
+font-size: 30px;
+font-family: fantasy;
+}
+
+.titre{
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+.wp{
+text-align: center;
+font-family: serif;
+font-size: 20px;
+padding-bottom: 150px;
+}
+
+.thanks{
+text-align: center;
+}

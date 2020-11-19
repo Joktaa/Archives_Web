@@ -1,0 +1,146 @@
+body *
+{
+    font-family: Arial;
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* -----HEADER----- */
+header p
+{
+    text-align: center;
+    color: #5e5e5e;
+}
+
+#header_top
+{
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-top: 17px
+}
+
+#header_bottom
+{
+    font-size: 16px;
+    margin-top: 25px
+}
+
+header [alt^="Je"]
+{
+    width: 200px;
+    margin: 5px 58px;
+}
+
+/* -----ARTICLE----- */
+article
+{
+    display: grid;
+    grid-template-areas: "tennisImg tennisTxt"
+                         "skiImg skiTxt"
+                         "rugbyImg rugbyTxt"
+                         "formuleEImg formuleETxt";
+    grid-template-columns: 300px;
+    grid-gap: 10px
+}
+
+article *
+{
+    width: 300px;
+}
+
+article p
+{
+    font-size: 16px;
+}
+
+article strong
+{
+    color: #d50032;
+    font-size: 23px;
+}
+
+[alt="Tennis"]
+{
+    grid-area: tennisImg;
+}
+#tennis
+{
+    grid-area: tennisTxt;
+}
+
+[alt="Ski"]
+{
+    grid-area: skiImg;
+}
+#ski
+{
+    grid-area: skiTxt;
+}
+
+[alt="Rugby"]
+{
+    grid-area: rugbyImg;
+}
+#rugby
+{
+    grid-area: rugbyTxt;
+}
+
+[alt="Formule-E"]
+{
+    grid-area: formuleEImg;
+}
+#formule-e
+{
+    grid-area: formuleETxt;
+}
+
+#abonne *
+{
+    width: 200px;
+    margin: 20px 220px;
+}
+
+/* -----FOOTER----- */
+footer
+{
+    background-color: rgb(215, 215, 215);
+    margin-bottom: 40px;
+}
+
+[alt="plateforme"]
+{
+    width: 420px;
+    margin: 20px 110px;
+
+}
+
+.telechargement img
+{
+    width: 120px;
+    padding: 10px 20px;
+    
+}
+[alt="Play Store"]
+{
+    margin-left: 160px;
+}
+
+.media img
+{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+[alt="Facebook"]
+{
+    margin-left: 200px;
+}
+
+
+.text_footer *{
+    text-align: center;
+    font-size: 13px;
+}

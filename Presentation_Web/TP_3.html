@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACCUEIL</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="TP_3.css">
+        <script type="text/javascript" src="TP_3.js"></script>
+    </head>
+
+
+    <body>
+
+<!--INTRO-->
+      <h1>Bienvenue sur mon site</h1>
+      <h4>Te voilà arriver sur mon site, en cliquant sur les liens, tu vas pouvoir te balader sur mes différentes pages web. Mais il y a un défi, une page web est cachée sur ce site, je t'invite à la retrouver après avoir visiter  mes autres pages.</h4>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<!--MOT DE PASSE-->
+
+      <form name="login" method="post">
+        Mot de Passe: <input type=password name="password" size=30> <!--zone d'entrée-->
+        <input type=button value="Vérification" onClick="Login(this.form)"> <!--bouton de vérification attaché à la fonction Login sur ce formulaire-->
+      </form>
+
+<!--REGLES-->
+
+        <p>Pour trouver cette page web cachée, il va falloir que tu comprennes comment marche une page web.</p>
+        <p>Une page web est en réalité plusieurs fichier de lignes de code, une personne non initié ne peux pas les lire.</p>
+
+      <img src="data/exemple-code.jpg" alt="image indisponible" style="width: 500px; height: 300px; margin-left: 10px;">
+
+<!--PRESENTATION DES LANGUAGES-->
+
+        <p>Ce site est composé de plusieurs fichier en différents languages :</p>
+            <ul>Ils sont trois :
+<!--HTML-->
+                <li>Le HTML qui code le texte, les images, les vidéos ... et qui est le fichier principale de ce site : </li>
+                <img src="data/code-html.jpg" alt="image indisponible" class="img300-500">
+                <p>Exemple de site coder uniquement en HTML :</p>
+                <img src="data/site-html.png" alt="image indisponible" style="width: 1275px; height: 300px;">
+<!--CSS-->
+                <li>Le CSS qui code la partie graphique :</li>
+                <img src="data/code-css.png" alt="image indisponible"class="img300-500">
+                <p>Exemple de site coder en html et en CSS :</p>
+                <img src="data/site-css.png" alt="image indisponible" style="width: 790px; height: 350px;">
+<!--JS-->
+                <li>Le JavaScript qui code la dynamique et l'interaction utilisateur du site.</li>
+                <img src="data/code-js.jpg" alt="image indisponible" class="img300-500">
+                <p>Exemple de site coder en HTML, CSS et JavaScript :</p>
+                <img src="data/site-js.png" alt="image indisponible" style="width: 800px; height: 400px;">
+            </ul>
+
+<!--QUESTIONNAIRE-->
+
+            <p>A ton avis quelle est la partie qui code un mot de passe ?</p>
+
+            <form name="question" method="post">
+              <input type="checkbox" name="cb_html"> HTML
+              <input type="checkbox" name="cb_css"> CSS
+              <input type="checkbox" name="cb_js"> JS
+
+              <input type="button" value="ok" onclick="Question(this.form)"><!--bouton de vérification attaché à la fonction Question sur ce formulaire-->
+            </form>
+
+<!--PIED TANT QUE LA REPONSE EST FAUSSE-->
+
+            <div id="texteB" style="display: block;">
+              <br>
+              <hr>
+              <br>
+            </div>
+
+<!--SUITE DE LA PRESENTATION-->
+
+            <div id="texteR" style="display: none;"><!--display permet de cacher le texte (l'affichage se fait dans le script js)-->
+              <p>En effet un mot de passe est une interaction utilisateur donc c'est du JavaScript qui va coder cette partie.</p>
+              <p>Maintenant que nous savons que notre mot de passe se situe dans un fichier JavaScript, il faut trouver le fichier qui code le site. <br>Pour cela nous allons aller dans les sources du site. Celles-ci se trouvent en faisant "clique droit" et "inspecter" ou "ctrl"+"MAJ"+"I". <br>Ainsi nous trouvons cette fenêtre :</p>
+              <img src="data/source_e1.png" alt="image indisponible" class="imgsource">
+              <p>On peut voir une case sources. En cliquant dessus on trouve tout les fichiers du site dont un fichier ".js" qui est l'extension de JavaScript :</p>
+              <img src="data/source_e2.png" alt="image indisponible" class="imgsource">
+              <p>En analysant le fichier, on peut lire "password == 'ai4578jf'" on peut aisément comprendre que ceci est le mot de passe du site. Il suffit donc de taper le mot de passe dans la zone prévue à cet effet.</p>
+              <hr>
+              <h2 style="text-align: center;">À TOI DE JOUER</h3>
+            </div>
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+/*fond d'écran et marge à gauche*/
+body {
+  background-color: rgb(230, 230, 230);
+  margin-left: 12px;
+}
+
+/*alignemet du titre*/
+h1 {
+  text-align: center;
+}
+
+/*marge de la liste*/
+li {
+  margin: 10px;
+}
+
+/*police des paragraphes*/
+p, li, ul {
+  font-size: 17px;
+}
+
+/*marges des images*/
+img {
+  margin: 10px;
+}
+
+/*ajustement de certaines images*/
+.img300-500 {
+  width: 500px;
+  height: 300px;
+}
+
+/*ajustement de certaines images*/
+.imgsource {
+  width: 1000px;
+  height: 600px;
+  margin-left: 10px;
+}

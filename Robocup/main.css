@@ -1,0 +1,25 @@
+*{
+  background-color: grey;
+}
+
+.sommaire h2{
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+li {
+  padding: 5px;
+}
+
+.sommaire{
+  font-size: 20px;
+}
+
+
+#titre{
+  text-align: center;
+}

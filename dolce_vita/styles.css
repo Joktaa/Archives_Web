@@ -1,0 +1,169 @@
+/* GENERAL */
+body{
+    margin: 0;
+}
+
+*{
+    font-family: 'Montserrat', Arial;
+}
+
+hr{
+    width: 1100px;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 900px;
+}
+
+header *{
+    display: inline-block;
+}
+
+[alt="logo"]
+{
+    float: left;
+    width: 185px;
+    height: 31px;
+    margin-top: 10px;
+}
+
+header ul {
+    padding: 0;
+    margin-left: 20px;
+    width: auto;
+    margin-left: 25%;
+}
+
+/* .texte_top{
+    height: 700px;
+} */
+
+.texte_top h1, .texte_top p{
+    color: white;
+    position: relative;
+    bottom: 500px;
+}
+
+.texte_top h1{
+    font-size: 40px;
+    left: 800px;
+}
+.texte_top p{
+    font-size: 30px;
+    left: 500px;
+}
+
+/* MAIN */
+  /* GENERAL */
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+article{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+}
+
+article *{
+    display: block;
+}
+article p, article a{
+    display: inline;
+}
+
+  /* TEXTE */
+
+article h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+p.meta, .meta *{
+    font-style: italic;
+}
+
+p.meta{
+    color: lightgray;
+}
+
+p a{
+    color: #edc64a;
+    text-decoration: underline;
+}
+
+.suite{
+    display: inline;
+    color: #edc64a;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.text{
+    width: 500px;
+}
+
+  /* IMAGE */
+.image{
+    display: block;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    float: right;
+}
+
+main img{
+    position: relative;
+    width: 433px;
+    height: 167px;
+    right: 100px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #edc64a;
+}
+
+.footer_container *
+{
+    display: inline-block;
+}
+
+.footer_container{
+    width: 1100px;
+    margin: auto;
+}
+
+.top_footer{
+    display: grid;
+    grid-template-areas: "ligne adress RS";
+}
+
+.ligne{
+    grid-area: ligne;
+}
+.ligne *{
+    margin: 5px 0px;
+}
+
+.adress{
+    grid-area: adress;
+    justify-self: center;
+}
+
+.RS{
+    grid-area: RS;
+    justify-self: end;
+}
+.RS img{
+    width: 230px;
+    height: 81px;
+}
+
+.menu_bottom{
+    float: right;
+}

@@ -1,0 +1,35 @@
+*{
+  background-color: lightgrey;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+}
+
+.paragraphe{
+  font-size: 17px;
+}
+
+
+#titre{
+    text-align: center;
+}
+
+#image{
+  width: 600px;
+  height: 400px;
+  padding: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ligne{
+  color: black;
+  width: 75%;
+}
